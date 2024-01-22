@@ -1,0 +1,112 @@
+.profile_nav ul li {
+	list-style:none;
+  width: 500px;
+}
+.profile_nav ul li a {
+	color:#555;
+	font-size:15px;
+	font-weight:900;
+}
+.profile_nav ul li.active a, .profile_nav ul li a:hover {
+	color:#fa2837;
+}
+.profile_nav {
+    border-right: medium none;
+    border-right: 1px solid rgb(175, 175, 175);
+    height: 150px;
+    width: 250px;
+    box-sizing: border-box;
+    border-right: 1px solid black;
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
+
+    
+    /* text-align:left; */
+    /* padding:20px 0; */
+  }
+
+.links{
+  
+}
+
+  .profile_nav ul li {
+    box-sizing: border-box;
+    margin: 0 15px 0 0;
+width: 175px;
+/* border-right: 1px solid rgb(175, 175, 175); */
+  }
+  .profile_wrap form {
+	/* padding:20px 0; */
+}
+.profile_wrap form .form-group {
+	/* padding:0 25px; */
+}
+.profile_wrap form .control-label {
+	color:#111;
+}
+  .profile_wrap {
+    padding: 16px 5px;
+  }
+  .profile_wrap form .form-group {
+    /* padding: 0 15px; */
+  }
+  .my_vehicles_list ul.vehicle_listing {
+	padding:0px;
+	margin:0 0 50px;
+}
+.my_vehicles_list ul.vehicle_listing li {
+	/* list-style:none; */
+	/* border-bottom:#e6e6e6 solid 1px; */
+	/* padding:14px 0 22px; */
+	overflow:hidden;
+	position:relative;
+}
+.my_vehicles_list ul.vehicle_listing li a {
+	color:#111;
+}
+.my_vehicles_list ul.vehicle_listing li .btn:hover {
+	color:#fff;
+}
+.vehicle_img {
+    /* width: 40%; */
+    margin-right:5%;
+  }
+  .vehicle_img {
+    float: left;
+    margin-right: 22px;
+    width: 22%;
+  }
+  .vehicle_img img {
+      max-width:100%;
+  }
+  .vehicle_status {
+    clear: both;
+    float: none;
+    padding-top: 15px;
+    text-align: left;
+    /* width: 100%; */
+  }
+  .vehicle_status {
+    float: right;
+    text-align: right;
+    /* width: 25%; */
+  }
+  .vehicle_status a i {
+      margin:10px 0 0 8px;
+      color:#555;
+      font-size:18px
+  }
+  .vehicle_title {
+    float: left;
+    /* padding: 12px 0; */
+    /* width: 40%; */
+  }
+  .vehicle_title {
+    /* width: 55%; */
+  }
+  /* .qw{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+  } */
