@@ -193,7 +193,7 @@ setUseremil(responce.data.email);
               <p className="d-inline-block float-start d-lg-flex justify-content-lg-end"style={{ marginTop: 18, marginLeft: 95 }}>{cal}</p>
               <StripeCheckout
         token={paynow}
-        stripeKey="pk_test_51NDJfNGAfkP5ELsBcv5jJUqqHsH1wvx9OacdGtIFUMVtupTSAPuIpnoBRx92cWSlwcfxzqQgXB3pz4Mu3PZHgeK900nqaSoExo"
+        stripeKey=""
         amount={cal*100}
         currency="lkr"
         email={useremil}
