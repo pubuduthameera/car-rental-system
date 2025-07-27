@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 //***************** mongodb ****************** */
-const uri = "mongodb+srv://liyanaarachchipubudu:pubuduthameera@car.bnmwqwv.mongodb.net/?retryWrites=true&w=majority";
+const uri = "";
 const {MongoClient,ServerApiVersion,ObjectId} = require('mongodb');
 const client = new MongoClient(uri, { useNewUrlParser: true });
 const customer = client.db('carrentalproject').collection('customer');
@@ -24,7 +24,7 @@ const booking = client.db('carrentalproject').collection('rental');
 const testermonial = client.db('carrentalproject').collection('testermonial');
   
 //******************* Stripe********************** */
-const stripe = require('stripe')('sk_test_51NDJfNGAfkP5ELsByc1UgMUVpjRhnwQvVUX9VvoMua4uSqeenFOcklZzOk6HP3n1RiBzRlBxnB0ybpZ1iF1K2vXZ004sObWAge');
+const stripe = require('stripe')('');
 
 //***********************session******************* */
 
